@@ -1,21 +1,34 @@
-[gd_scene load_steps=3 format=3 uid="uid://dmart1ree0yig"]
+[gd_scene load_steps=6 format=3 uid="uid://dmart1ree0yig"]
 
 [ext_resource type="Script" path="res://canvas_layer.gd" id="1_awnvo"]
+[ext_resource type="ArrayMesh" path="res://traincar.obj" id="2_ljo5s"]
+[ext_resource type="ArrayMesh" path="res://seat.obj" id="3_n3kpy"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_k8uxu"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ub4lb"]
+metallic = 1.0
 
-[node name="Node3D" type="Node3D"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ma5k8"]
+
+[node name="Main" type="Node3D"]
+transform = Transform3D(0.999998, -0.00202931, -0.000167889, 0.00202924, 0.999998, -0.00040931, 0.000168715, 0.00040897, 1, 0, 0, 0)
 script = ExtResource("1_awnvo")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
-mesh = SubResource("BoxMesh_k8uxu")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25245, 1.2465, 1.35444)
-mesh = SubResource("BoxMesh_k8uxu")
+transform = Transform3D(-0.996463, -0.0259637, -0.0799164, -0.0329985, 0.995573, 0.0880052, 0.0772777, 0.090331, -0.992909, 0, 16.0054, -90.2037)
+fov = 91.46
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.644257, 0.599202, -0.475279, 0, 0.621435, 0.783466, 0.764809, -0.504753, 0.400364, -9.95009, 2.38316, -0.169947)
+transform = Transform3D(-0.503825, -0.145833, 0.851406, 0.592173, -0.775896, 0.217523, 0.628881, 0.613773, 0.477274, 0.889544, 47.9979, -137.927)
+
+[node name="Traincar" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.42684, -0.00601532, -0.000498205, 0.00601521, 5.42684, -0.00121307, 0.000499574, 0.00121251, 5.42684, 1.00326, 17.1029, -3.003)
+material_override = SubResource("StandardMaterial3D_ub4lb")
+mesh = ExtResource("2_ljo5s")
+
+[node name="seat" type="MeshInstance3D" parent="Traincar"]
+transform = Transform3D(0.0208097, 0, 1.33806, 0, 1.33822, 0, -1.33806, 0, 0.0208097, 2.32152, -2.18102, 0.00469989)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("3_n3kpy")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(0.999956, 0.00922035, 0.00141778, 0.00881098, -0.983415, 0.181153, 0.00306457, -0.181133, -0.983454, 0, 20.1405, -88.2364)
