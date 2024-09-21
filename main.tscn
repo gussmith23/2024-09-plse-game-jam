@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmart1ree0yig"]
+
+[ext_resource type="Script" path="res://canvas_layer.gd" id="1_awnvo"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_k8uxu"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_awnvo")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+mesh = SubResource("BoxMesh_k8uxu")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25245, 1.2465, 1.35444)
+mesh = SubResource("BoxMesh_k8uxu")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.644257, 0.599202, -0.475279, 0, 0.621435, 0.783466, 0.764809, -0.504753, 0.400364, -9.95009, 2.38316, -0.169947)
