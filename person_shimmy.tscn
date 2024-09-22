@@ -1,6 +1,6 @@
-[gd_scene load_steps=11 format=3 uid="uid://cshudjuu3gxqg"]
+[gd_scene load_steps=11 format=3 uid="uid://ukkcgelcguio"]
 
-[ext_resource type="PackedScene" uid="uid://cy2nexlkydoql" path="res://person.fbx" id="1_mk18h"]
+[ext_resource type="PackedScene" uid="uid://cy2nexlkydoql" path="res://person.fbx" id="1_13r27"]
 
 [sub_resource type="Animation" id="Animation_5jufw"]
 length = 0.001
@@ -767,7 +767,7 @@ _data = {
 "shimmy": SubResource("Animation_k7ndt")
 }
 
-[node name="person" instance=ExtResource("1_mk18h")]
+[node name="person" instance=ExtResource("1_13r27")]
 
 [node name="thighL" parent="person/lumbar_grp/lumbar/thighL_grp" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.999999, 13.1626, -19.8157, 0)
@@ -815,4 +815,4 @@ libraries = {
 "": SubResource("AnimationLibrary_6i7ll"),
 "person": SubResource("AnimationLibrary_kvmfm")
 }
-autoplay = "RESET"
+autoplay = "person/shimmy"

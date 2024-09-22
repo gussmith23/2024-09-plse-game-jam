@@ -1,9 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://dmart1ree0yig"]
+[gd_scene load_steps=10 format=3 uid="uid://bhscg07ucix7t"]
 
 [ext_resource type="PackedScene" path="res://dialog_overlay.tscn" id="1_1gqth"]
 [ext_resource type="Script" path="res://main.gd" id="1_qlwfu"]
-[ext_resource type="PackedScene" uid="uid://b6bm0g0hawfak" path="res://environment.tscn" id="2_w3mi7"]
-[ext_resource type="PackedScene" path="res://person.tscn" id="4_71inm"]
+[ext_resource type="PackedScene" uid="uid://c2dtojm7c0kth" path="res://environment.tscn" id="2_w3mi7"]
+[ext_resource type="PackedScene" uid="uid://bkst6ew1mfd2t" path="res://person_hover.tscn" id="4_6auum"]
+[ext_resource type="PackedScene" uid="uid://cdge3d5egt1ld" path="res://person_mid.tscn" id="5_w1rsi"]
+[ext_resource type="PackedScene" uid="uid://ukkcgelcguio" path="res://person_shimmy.tscn" id="6_2sewa"]
+[ext_resource type="PackedScene" uid="uid://cieafk3rgtjhk" path="res://person_up.tscn" id="7_pxmwx"]
 
 [sub_resource type="Environment" id="Environment_iw3ck"]
 background_mode = 2
@@ -33,14 +36,14 @@ camera_attributes = SubResource("CameraAttributesPractical_a4sfd")
 transform = Transform3D(1, 1.48042e-09, 4.26371e-09, -2.01404e-09, 1, -1.4843e-09, 0, -2.91038e-10, 1, 62.0027, 109.772, -0.141517)
 visible = false
 
-[node name="person" parent="." instance=ExtResource("4_71inm")]
-transform = Transform3D(-0.560888, 0.107941, 43.7943, 0.0720893, 43.7979, -0.107026, -43.7944, 0.0707129, -0.561063, 189.329, -88.1146, 162.939)
+[node name="person" parent="." instance=ExtResource("4_6auum")]
+transform = Transform3D(1.55379, 0.100978, 49.7375, -0.0235113, 49.7616, -0.100294, -49.7375, -0.0203682, 1.55384, 128.59, -112.421, 450.381)
 
-[node name="person4" parent="." instance=ExtResource("4_71inm")]
-transform = Transform3D(-0.560888, 0.107941, 43.7944, 0.0720893, 43.7979, -0.107026, -43.7944, 0.070713, -0.561063, 189.371, -88.0116, 415.101)
+[node name="person2" parent="." instance=ExtResource("5_w1rsi")]
+transform = Transform3D(1.55379, 0.100978, 49.7375, -0.0235112, 49.7616, -0.100293, -49.7375, -0.0203681, 1.55384, 128.105, -121.685, 156.373)
 
-[node name="person2" parent="." instance=ExtResource("4_71inm")]
-transform = Transform3D(1.76704, 0.0673788, -43.7624, 0.103203, 43.7979, 0.0716006, 43.7623, -0.106008, 1.76687, 250.944, -88.2638, 103.952)
+[node name="person3" parent="." instance=ExtResource("6_2sewa")]
+transform = Transform3D(-9.45774, 0.100979, -48.8547, 0.0391887, 49.7616, 0.0952669, 48.8547, -0.0203678, -9.45782, 256.953, -133.465, 143.362)
 
-[node name="person3" parent="." instance=ExtResource("4_71inm")]
-transform = Transform3D(1.76704, 0.0673788, -43.7624, 0.103203, 43.7979, 0.0716006, 43.7623, -0.106008, 1.76687, 253.237, -88.2346, 186.675)
+[node name="person4" parent="." instance=ExtResource("7_pxmwx")]
+transform = Transform3D(-9.45774, 0.100979, -48.8547, 0.0391887, 49.7616, 0.0952669, 48.8547, -0.0203678, -9.45782, 256.978, -129.389, 91.0852)

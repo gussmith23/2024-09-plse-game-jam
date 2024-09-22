@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://b6bm0g0hawfak"]
+[gd_scene load_steps=5 format=3 uid="uid://c2dtojm7c0kth"]
 
 [ext_resource type="ArrayMesh" uid="uid://8h05tp8qdk2e" path="res://assets/traincar2.obj" id="1_nib2n"]
 [ext_resource type="ArrayMesh" uid="uid://clb7q003ntx4n" path="res://assets/seat.obj" id="2_movxi"]
