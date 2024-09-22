@@ -1,0 +1,817 @@
+[gd_scene load_steps=11 format=3 uid="uid://cshudjuu3gxqg"]
+
+[ext_resource type="PackedScene" uid="uid://cy2nexlkydoql" path="res://person.fbx" id="1_mk18h"]
+
+[sub_resource type="Animation" id="Animation_5jufw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.904793, -0.727179, 0.62502)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.62268e-08, 1.53718e-08, -1.6249)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR/handR_grp/handR:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.584423, -0.444414, -0.392425)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL/handL_grp/handL:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0.222564)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL/shinL_grp/shinL:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.35471, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.24923, -0.00988753, -0.00900673)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR/shinR_grp/shinR:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.38446, -0.0117599, 0.014932)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/head_grp/head:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0.144321)]
+}
+
+[sub_resource type="Animation" id="Animation_d6qmo"]
+resource_name = "Take 001"
+length = 4.95833
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6i7ll"]
+_data = {
+"RESET": SubResource("Animation_5jufw"),
+"Take 001": SubResource("Animation_d6qmo")
+}
+
+[sub_resource type="Animation" id="Animation_rfepu"]
+resource_name = "flail_up"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.904793, -0.727179, 0.62502), Vector3(1.94412, -0.936104, -0.258439)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(1.62268e-08, 1.53718e-08, -1.6249), Vector3(0, 0, -0.216421)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR/handR_grp/handR:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.584423, -0.444414, -0.392425), Vector3(-0.0181933, -0.361034, 0.23506)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.166667, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-1.31025, 0.853275, -0.188286), Vector3(-1.49681, 1.80946, -0.355315)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.166667, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0, 0, -0.867429), Vector3(0, 0, -0.542797)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL/handL_grp/handL:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.166667, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-0.00400917, -0.0145314, -0.369648), Vector3(0.010785, -0.20118, -0.0216893)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0, 0, 0.222564), Vector3(0, 0, -0.118735)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.26585, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL/shinL_grp/shinL:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.35471, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.24923, -0.00988753, -0.00900673)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR/shinR_grp/shinR:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.38446, -0.0117599, 0.014932)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/head_grp/head:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0.0666667, 0.366667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0.32149), Vector3(0, 0, -0.346326)]
+}
+
+[sub_resource type="Animation" id="Animation_cke6f"]
+resource_name = "flail_mid"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.231334, -0.839636, 0.195252), Vector3(1.49461, -0.134359, -0.0254291)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(1.62268e-08, 1.53718e-08, -1.6249), Vector3(0, 0, 0.324631)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR/handR_grp/handR:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.584423, -0.444414, -0.392425), Vector3(0.0931926, -0.846798, 0.611115)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.2, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-1.31025, 0.853275, -0.188286), Vector3(-0.424386, 0.80068, -0.57288)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.2, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-1.45899, -1.61567, -1.40026), Vector3(0, 0, -0.00174533)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL/handL_grp/handL:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.2, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-0.00400917, -0.0145314, -0.369648), Vector3(-0.0420284, 0.0113851, 0.574958)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.0666667, 0.333333),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.55971, 2.25701e-09, -0.0422195), Vector3(-0.505413, 1.4966e-09, -0.0422195)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.26585, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL/shinL_grp/shinL:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.35471, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.24923, -0.00988753, -0.00900673)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR/shinR_grp/shinR:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.38446, -0.0117599, 0.014932)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/head_grp/head:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0.166667, 0.466667),
+"transitions": PackedFloat32Array(1.31951, 1.31951),
+"update": 0,
+"values": [Vector3(0.393613, 0.158646, 0.195404), Vector3(-0.147512, -0.129036, -0.0638085)]
+}
+
+[sub_resource type="Animation" id="Animation_fcxv5"]
+resource_name = "hover"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667, 0.266667, 0.366667),
+"transitions": PackedFloat32Array(1.41421, 1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(1.67218, -0.636954, 0.0210347), Vector3(1.75098, 0.19451, 0.266637), Vector3(1.62471, -0.506694, 0.0858385)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.266667, 0.366667),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0, 0, -0.432842), Vector3(0, 0, -0.216421)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR/handR_grp/handR:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.0666667, 0.266667, 0.366667),
+"transitions": PackedFloat32Array(1.41421, 1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-0.752494, 0.747113, -0.246827), Vector3(-1.12422, 1.12738, 0.737756), Vector3(-0.0037737, 1.31519, 0.773909)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.3),
+"transitions": PackedFloat32Array(1.41421, 1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-1.27734, 0.753142, 1.21324), Vector3(-1.31408, 0.536137, 0.778484), Vector3(-1.74142, -0.0756347, 0.202305)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.433333),
+"transitions": PackedFloat32Array(1.41421, 1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0, 0, -0.326377), Vector3(0, 0, -0.218166), Vector3(0, 0, -0.44855)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL/handL_grp/handL:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.299609),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-0.333282, -0.505729, 0.860974), Vector3(-0.272439, -0.44808, 0.81858)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.133333, 0.266667, 0.433333),
+"transitions": PackedFloat32Array(1.41421, 1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.0438227, -0.0345424, -0.0606411), Vector3(0.484445, -0.0664675, -0.0710937), Vector3(0.450138, 7.6467e-10, 0.222564)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.26585, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL/shinL_grp/shinL:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.35471, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.24923, -0.00988753, -0.00900673)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR/shinR_grp/shinR:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.38446, -0.0117599, 0.014932)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/head_grp/head:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0.0666667, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.346326), Vector3(0, 0, 0.32149)]
+}
+
+[sub_resource type="Animation" id="Animation_0sfj4"]
+resource_name = "delete"
+
+[sub_resource type="Animation" id="Animation_k7ndt"]
+resource_name = "shimmy"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(1.04626, -2.14962, -0.139687), Vector3(1.15196, -1.43489, -0.346401)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.333333, 0.366667),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0, 0, -0.883137), Vector3(0, 0, -0.216421)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR/handR_grp/handR:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1.41421),
+"update": 0,
+"values": [Vector3(0.42586, -0.492183, 1.26187)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.366667),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-1.33169, 0.223402, -0.18675), Vector3(-1.31025, 0.853275, -0.188286)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.266667, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0, 0, 0.10821), Vector3(0, 0, -0.558505)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL/handL_grp/handL:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.4),
+"transitions": PackedFloat32Array(1.41421, 1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.00872665, -0.174533, 0.808087), Vector3(-0.00349066, -0.0139626, 0.171042), Vector3(0.010785, -0.20118, -0.0216893)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.233333, 0.466667),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(0.144528, 0.746235, 0.14049), Vector3(-0.0737685, -0.309391, 0.0876204)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.26585, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("person/lumbar_grp/lumbar/thighL_grp/thighL/shinL_grp/shinL:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.35471, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.24923, -0.00988753, -0.00900673)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("person/lumbar_grp/lumbar/thighR_grp/thighR/shinR_grp/shinR:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.38446, -0.0117599, 0.014932)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("person/lumbar_grp/lumbar/torso_grp/torso/head_grp/head:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1.41421, 1.41421),
+"update": 0,
+"values": [Vector3(-0.1886, -0.735233, -0.12491), Vector3(0, 0, 0.32149)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kvmfm"]
+_data = {
+"delete": SubResource("Animation_0sfj4"),
+"flail_mid": SubResource("Animation_cke6f"),
+"flail_up": SubResource("Animation_rfepu"),
+"hover": SubResource("Animation_fcxv5"),
+"shimmy": SubResource("Animation_k7ndt")
+}
+
+[node name="person" instance=ExtResource("1_mk18h")]
+
+[node name="thighL" parent="person/lumbar_grp/lumbar/thighL_grp" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.999999, 13.1626, -19.8157, 0)
+
+[node name="shinL" parent="person/lumbar_grp/lumbar/thighL_grp/thighL/shinL_grp" index="0"]
+transform = Transform3D(1, 0, 0, 0, 0.214411, -0.976743, 0, 0.976743, 0.214411, 12.835, -96.3284, -1.52588e-05)
+
+[node name="thighR" parent="person/lumbar_grp/lumbar/thighR_grp" index="0"]
+transform = Transform3D(0.999995, -0.000373989, -0.00312497, -0.00284661, 0.316044, -0.94874, 0.00134245, 0.948744, 0.316042, 12.5059, -19.8157, -7.5456e-15)
+
+[node name="shinR" parent="person/lumbar_grp/lumbar/thighR_grp/thighR/shinR_grp" index="0"]
+transform = Transform3D(0.999992, -0.00337561, -0.00217857, 0.00276617, 0.185238, 0.98269, -0.00291362, -0.982688, 0.185246, 12.835, -96.9851, 0)
+
+[node name="torso" parent="person/lumbar_grp/lumbar/torso_grp" index="0"]
+transform = Transform3D(0.975334, -0.220731, 0, 0.220731, 0.975335, 0, 0, 0, 0.999999, 0, 28.7516, 0)
+
+[node name="upperArmR" parent="person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp" index="0"]
+transform = Transform3D(0.605825, -0.792772, -0.0670254, 0.585114, 0.501046, -0.637649, 0.539094, 0.347086, 0.767406, 52.1576, 70.3972, -3.05176e-05)
+rotation_order = 3
+
+[node name="lowerArmR" parent="person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp" index="0"]
+transform = Transform3D(-0.0540796, 0.998537, 1.53718e-08, -0.998537, -0.0540796, -1.62268e-08, -1.53718e-08, -1.62268e-08, 1, 46.1347, 29.7362, 0)
+
+[node name="handR" parent="person/lumbar_grp/lumbar/torso_grp/torso/upperArmR_grp/upperArmR/lowerArmR_grp/lowerArmR/handR_grp" index="0"]
+transform = Transform3D(0.83423, 0.0507764, -0.549073, -0.38243, 0.77063, -0.509779, 0.397247, 0.635255, 0.662303, 46.1983, -12.9912, -4.57764e-05)
+rotation_order = 3
+
+[node name="upperArmL" parent="person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.8367, 67.9844, -2.57492e-05)
+rotation_order = 3
+
+[node name="lowerArmL" parent="person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.6635, 29.9604, 5.51767)
+rotation_order = 3
+
+[node name="handL" parent="person/lumbar_grp/lumbar/torso_grp/torso/upperArmL_grp/upperArmL/lowerArmL_grp/lowerArmL/handL_grp" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.4072, -13.949, -3.05176e-05)
+rotation_order = 3
+
+[node name="head" parent="person/lumbar_grp/lumbar/torso_grp/torso/head_grp" index="0"]
+transform = Transform3D(0.989603, -0.143821, 0, 0.143821, 0.989604, 0, 0, 0, 0.999999, -7.62939e-06, 92.39, 1.52588e-05)
+
+[node name="AnimationPlayer" parent="." index="1"]
+libraries = {
+"": SubResource("AnimationLibrary_6i7ll"),
+"person": SubResource("AnimationLibrary_kvmfm")
+}
