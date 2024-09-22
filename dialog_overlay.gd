@@ -14,24 +14,22 @@ func _hears_dream() -> bool:
 func _hears_boring() -> bool:
 	return direction < .6
 
-func _init(play_by_default_: bool = true) -> void:
-	play_by_default = play_by_default_
-
-func start() -> void:
-	$DreamAnimationPlayer.play("dream_script")
-	$BoringAnimationPlayer.play("boring_script")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	if play_by_default:
-		start()
-
+	pass
+	
+var accum = 0
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	pass
+	accum += delta
+	
+	if accum > 1:
+		$DreamScript.next()
+		$BoringScript.next()
+		accum = 0
 
 func _on_script_new_line(from: String, line: String) -> void:
-	print(from, line)
 	assert(from == "dream" || from == "boring")
 	if from == "dream" and _hears_dream():
 		$RichTextLabel.text += "[color=#f82c00]%s[/color]" % line
