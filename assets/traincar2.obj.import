@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8h05tp8qdk2e"
+path="res://.godot/imported/traincar2.obj-81dc2907ca08c69402c9cab045d4a74e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/traincar2.obj-81dc2907ca08c69402c9cab045d4a74e.mesh"]
+
+source_file="res://assets/traincar2.obj"
+dest_files=["res://.godot/imported/traincar2.obj-81dc2907ca08c69402c9cab045d4a74e.mesh", "res://.godot/imported/traincar2.obj-81dc2907ca08c69402c9cab045d4a74e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

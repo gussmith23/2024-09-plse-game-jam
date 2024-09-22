@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjgmx5axttbiu"]
+
+[ext_resource type="Script" path="res://text_bubble.gd" id="1_3skas"]
+
+[node name="TextBubble" type="CanvasLayer"]
+script = ExtResource("1_3skas")
+
+[node name="Text" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
