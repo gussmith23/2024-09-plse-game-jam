@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://drfotb3x71acu"]
+
+[ext_resource type="Script" path="res://text_script.gd" id="1_un2q4"]
+
+[node name="Script" type="Node"]
+script = ExtResource("1_un2q4")
+metadata/script_file = ""
+metadata/boring_or_dream = ""

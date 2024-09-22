@@ -1,16 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://dmart1ree0yig"]
+[gd_scene load_steps=4 format=3 uid="uid://dmart1ree0yig"]
 
-[ext_resource type="Script" path="res://canvas_layer.gd" id="1_awnvo"]
+[ext_resource type="PackedScene" uid="uid://b2sgxo5hdhspu" path="res://dialog_overlay.tscn" id="1_pslyg"]
+[ext_resource type="Script" path="res://main.gd" id="1_yqlwh"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_k8uxu"]
 
 [node name="Node3D" type="Node3D"]
-script = ExtResource("1_awnvo")
+script = ExtResource("1_yqlwh")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 
+[node name="DialogOverlay" parent="Camera3D" instance=ExtResource("1_pslyg")]
+
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.63481, 0, -0.384028)
 mesh = SubResource("BoxMesh_k8uxu")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D"]
@@ -18,4 +21,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25245, 1.2465, 1.35444)
 mesh = SubResource("BoxMesh_k8uxu")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.644257, 0.599202, -0.475279, 0, 0.621435, 0.783466, 0.764809, -0.504753, 0.400364, -9.95009, 2.38316, -0.169947)
+transform = Transform3D(-0.318583, -0.0437439, 0.946885, 0.325508, 0.933139, 0.152627, -0.890253, 0.356843, -0.283043, 4.55574, 2.38316, 0.532892)
