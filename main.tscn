@@ -1,5 +1,5 @@
+[gd_scene load_steps=10 format=3 uid="uid://6d2fm0a4oyry"]
 
-[gd_scene load_steps=10 format=3 uid="uid://bhscg07ucix7t"]
 [ext_resource type="PackedScene" uid="uid://b2sgxo5hdhspu" path="res://dialog_overlay.tscn" id="1_1gqth"]
 [ext_resource type="Script" path="res://main.gd" id="1_qlwfu"]
 [ext_resource type="PackedScene" uid="uid://c2dtojm7c0kth" path="res://environment.tscn" id="2_w3mi7"]
@@ -7,8 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://cdge3d5egt1ld" path="res://person_mid.tscn" id="5_w1rsi"]
 [ext_resource type="PackedScene" uid="uid://ukkcgelcguio" path="res://person_shimmy.tscn" id="6_2sewa"]
 [ext_resource type="PackedScene" uid="uid://cieafk3rgtjhk" path="res://person_up.tscn" id="7_pxmwx"]
-[ext_resource type="PackedScene" path="res://environment.tscn" id="2_w3mi7"]
-[ext_resource type="PackedScene" path="res://person.tscn" id="4_71inm"]
 
 [sub_resource type="Environment" id="Environment_iw3ck"]
 background_mode = 2

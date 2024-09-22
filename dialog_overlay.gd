@@ -46,3 +46,6 @@ func _on_script_new_line(from: String, line: String) -> void:
 		$RichTextLabel.text += "[color=#00def8]%s[/color]" % line
 
 	$RichTextLabel.text += "\n"
+	
+	var array = $RichTextLabel.text.split("\n")
+	$RichTextLabel.text  = "\n".join(array.slice(max(array.size()-10, 0), array.size()))
