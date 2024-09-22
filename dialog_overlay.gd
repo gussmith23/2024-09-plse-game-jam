@@ -44,5 +44,6 @@ func _on_script_new_line(from: String, line: String) -> void:
 		$RichTextLabel.text += "[color=#f82c00]%s[/color]" % line
 	elif from == "boring" and _hears_boring():
 		$RichTextLabel.text += "[color=#00def8]%s[/color]" % line
+	
 
 	$RichTextLabel.text += "\n"

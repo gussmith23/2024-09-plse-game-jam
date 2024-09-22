@@ -4,7 +4,7 @@
 [ext_resource type="ArrayMesh" uid="uid://clb7q003ntx4n" path="res://assets/seat.obj" id="2_movxi"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ub4lb"]
-albedo_color = Color(1, 0.254902, 1, 1)
+albedo_color = Color(0.572549, 0.447059, 0.611765, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ma5k8"]
 
