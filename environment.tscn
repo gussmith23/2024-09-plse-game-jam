@@ -16,15 +16,58 @@ metallic = 1.0
 transform = Transform3D(-0.718258, 0.224212, 0.658661, 0.297297, -0.756988, 0.58188, 0.629063, 0.613758, 0.477055, 0.889544, 47.9979, -137.927)
 
 [node name="Traincar" type="MeshInstance3D" parent="."]
-transform = Transform3D(-5.16498, -0.0230044, -128.525, 0.142575, 128.629, -0.0287527, 128.525, -0.143615, -5.16494, 88.1778, 17.1029, -526.142)
+transform = Transform3D(-5.28397, -0.0230068, -177.104, 0.14586, 128.643, -0.0396203, 131.487, -0.14363, -7.11712, 88.1778, 17.1029, -526.142)
 material_override = SubResource("StandardMaterial3D_ub4lb")
 mesh = ExtResource("1_nib2n")
 skeleton = NodePath("../..")
 
-[node name="seat" type="MeshInstance3D" parent="Traincar"]
-transform = Transform3D(-0.566207, 0.000765389, -0.00134332, 0.000764204, 0.566208, 0.000500477, 0.001344, 0.00049866, -0.566207, 4.35657, -0.517372, -0.340632)
-material_override = SubResource("StandardMaterial3D_ma5k8")
-mesh = ExtResource("2_movxi")
-
 [node name="SpotLight3D" type="SpotLight3D" parent="."]
 transform = Transform3D(0.999957, 0.00922586, 0.000963758, 0.00871118, -0.969684, 0.244207, 0.00318756, -0.244188, -0.969723, 0.00162291, 17.2939, -44.1625)
+
+[node name="seat" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.45813, -0.0967409, 58.0564, 0.0156628, 86.9104, 0.0641873, -65.0147, 0.01728, 2.19506, 210.679, -79.8054, 448.261)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
+
+[node name="seat2" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.45813, -0.0967409, 58.0564, 0.0156628, 86.9104, 0.0641873, -65.0147, 0.01728, 2.19506, -113.236, -79.8054, 448.261)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
+
+[node name="seat3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.974529, 0.0963216, -58.0914, 0.0156628, 86.9104, 0.0641873, 65.0538, -0.0194821, -0.870243, -113.194, -79.8054, 266.501)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
+
+[node name="seat4" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.974529, 0.0963216, -58.0914, 0.0156628, 86.9104, 0.0641873, 65.0538, -0.0194821, -0.870243, 210.637, -79.8054, 259.113)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
+
+[node name="seat5" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.45813, -0.0967409, 58.0564, 0.0156628, 86.9104, 0.0641873, -65.0147, 0.01728, 2.19506, 210.679, -79.8054, 175.052)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
+
+[node name="seat6" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.45813, -0.0967409, 58.0564, 0.0156628, 86.9104, 0.0641873, -65.0147, 0.01728, 2.19506, -113.236, -79.8054, 175.052)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
+
+[node name="seat7" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.974529, 0.0963216, -58.0914, 0.0156628, 86.9104, 0.0641873, 65.0538, -0.0194821, -0.870243, -113.194, -79.8054, -6.7081)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
+
+[node name="seat8" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.974529, 0.0963216, -58.0914, 0.0156628, 86.9104, 0.0641873, 65.0538, -0.0194821, -0.870243, 210.637, -79.8054, -14.0965)
+material_override = SubResource("StandardMaterial3D_ma5k8")
+mesh = ExtResource("2_movxi")
+skeleton = NodePath("../Traincar")
