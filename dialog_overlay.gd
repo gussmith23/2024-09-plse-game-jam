@@ -6,6 +6,10 @@ const TextBubbleResource = preload("res://text_bubble.tscn")
 # What direction we're looking. a float between 0 and 1. Determines which audio stream you get.
 var direction = 0;
 
+# Text line display interval in s.
+const text_interval = 1.5
+const text_interval_random_variance = 1
+
 var play_by_default = true;
 
 func _hears_dream() -> bool:
@@ -19,15 +23,20 @@ func _hears_boring() -> bool:
 func _ready() -> void:
 	pass
 	
-var accum = 0
+var dream_accum = 0
+var boring_accum = 0
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	accum += delta
+	dream_accum += delta
+	boring_accum += delta
 	
-	if accum > 1:
+	if dream_accum > text_interval + randf() * text_interval_random_variance:
 		$DreamScript.next()
+		dream_accum = 0
+	if boring_accum > text_interval + randf() * text_interval_random_variance:
 		$BoringScript.next()
-		accum = 0
+		boring_accum = 0
 
 func _on_script_new_line(from: String, line: String) -> void:
 	assert(from == "dream" || from == "boring")
