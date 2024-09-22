@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dmart1ree0yig"]
+[gd_scene load_steps=6 format=3 uid="uid://6d2fm0a4oyry"]
 
-[ext_resource type="Script" path="res://canvas_layer.gd" id="1_awnvo"]
-[ext_resource type="PackedScene" uid="uid://b6bm0g0hawfak" path="res://environment.tscn" id="2_w3mi7"]
+[ext_resource type="PackedScene" uid="uid://b2sgxo5hdhspu" path="res://dialog_overlay.tscn" id="1_1gqth"]
+[ext_resource type="Script" path="res://main.gd" id="1_qlwfu"]
+[ext_resource type="PackedScene" path="res://environment.tscn" id="2_w3mi7"]
 
 [sub_resource type="Environment" id="Environment_iw3ck"]
 background_mode = 2
@@ -12,11 +13,13 @@ ambient_light_color = Color(0.7664, 0.757186, 0.86865, 1)
 
 [node name="Main" type="Node3D"]
 transform = Transform3D(0.999998, -0.00202931, -0.000167889, 0.00202924, 0.999998, -0.00040931, 0.000168715, 0.00040897, 1, 0, 0, 0)
-script = ExtResource("1_awnvo")
+script = ExtResource("1_qlwfu")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.997049, 0.00924387, -0.0762099, -0.0176438, 0.938556, 0.344675, 0.0747134, 0.345002, -0.935624, 148.625, 4.93223, 211.79)
 fov = 163.125
+
+[node name="DialogOverlay" parent="Camera3D" instance=ExtResource("1_1gqth")]
 
 [node name="environment" parent="." instance=ExtResource("2_w3mi7")]
 transform = Transform3D(1, -3.82194e-10, 0, -3.84219e-10, 1, 0, 0, -5.82077e-11, 1, 0.0366122, 0.0887462, 217)
